@@ -9,16 +9,16 @@ export default function MainCategories() {
                 All posts
             </Link>            
             <Link to="/posts?cat=web-design" className="hover:bg-blue-50 rounded-full px-4 py-2">
-                Web Design
+                Lifestyle
             </Link>        
             <Link to="/posts?cat=development" className="hover:bg-blue-50 rounded-full px-4 py-2">
-                Development
+                Travel
             </Link>  
             <Link to="/posts?cat=databases" className="hover:bg-blue-50 rounded-full px-4 py-2">
-                Databases
+                Health
             </Link>  
             <Link to="/posts?cat=ewb-design" className="hover:bg-blue-50 rounded-full px-4 py-2">
-                Search Engins
+                Education
             </Link>         
 
         </div>

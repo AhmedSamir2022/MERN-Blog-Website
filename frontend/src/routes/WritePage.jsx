@@ -64,6 +64,7 @@ export default function WritePage() {
     const formData = new FormData(e.target)
 
     const data = {
+      img: cover.filePath || "",
       title: formData.get('title'),
       category: formData.get('category'),
       desc: formData.get('desc'),
@@ -117,11 +118,10 @@ export default function WritePage() {
           <label htmlFor="" className="text-sm">Choose a category</label>
           <select name="category" id="" className="p-2 rounded-xl  shadow-md">
             <option value="general">General</option>
-            <option value="web-design">Web Design</option>
-            <option value="development">Development</option>
-            <option value="databases">Databases</option>
-            <option value="search-engines">Search Engines</option>
-            <option value="marketing">Marketing</option>
+            <option value="web-design">Lifestyle</option>
+            <option value="development">Travel</option>
+            <option value="databases">Health</option>
+            <option value="search-engines">Education</option>
           </select>
         </div>
 

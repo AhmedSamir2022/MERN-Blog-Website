@@ -19,8 +19,10 @@ export default function HomePage() {
       
       <div className="flex items-center justify-between">
         <div className="">
-        <h1 className="text-gray-800 text-2xl md:text-5xl lg:text-6xl font-bold ">Lorem ipsum dolor sit, amet consectetur adipisicing elit.</h1>
-        <p className="mt-8 text-md md:text-xl">Lorem ipsum dolor sit amet consectetur adipisicing elit. Totam debitis, alias porro eius saepe nihil</p>
+        <h1 className="text-gray-800 text-2xl md:text-5xl lg:text-6xl font-bold ">
+        Human stories & ideas
+        </h1>
+        <p className="mt-8 text-md md:text-xl">Join us to read, share, and create your own blog posts!</p>
         </div>
         {/* write your story button */}
         <div>
@@ -29,8 +31,8 @@ export default function HomePage() {
               viewBox="0 0 200 200"
               width="200"
               height="200"
-              // className="text-lg tracking-widest animate-spin animatedButton"
-              className="text-lg tracking-widest"
+              className="text-lg tracking-widest animate-spin animatedButton"
+              // className="text-lg tracking-widest"
             >
               <path
                 id="circlePath"
@@ -55,7 +57,7 @@ export default function HomePage() {
 
       <MainCategories />
 
-      <FeaturedPosts />
+      {/* <FeaturedPosts /> */}
 
       <div className="my-8 ">
         <h1 className="my-8 text-2xl text-gray-600">

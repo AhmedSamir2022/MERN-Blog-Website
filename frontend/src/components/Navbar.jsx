@@ -20,7 +20,7 @@ export default function Navbar() {
             {/* logo */}
             <Link to="/" className="flex items-center gap-4 text-2xl font-bold ">
                 <Image src="logomoon.jpg" alt="logomoon logo" w={40} h={40} />
-                <span>moon</span>
+                <span>Moon</span>
             </Link>
             {/* mobile menu */}
             <div className="md:hidden">
