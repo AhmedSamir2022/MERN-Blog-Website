@@ -12,7 +12,7 @@ User Authentication: Secure sign-up, login, and session management powered by Cl
 
 
 
-Blog Management: Create, read, update, and delete (CRUD) blog posts via RESTful APIs.
+Blog Management: Create, read, and delete (CRUD) blog posts via RESTful APIs.
 
 
 
