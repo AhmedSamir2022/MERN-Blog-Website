@@ -47,3 +47,7 @@ All screenshots are stored in the `assets/` folder of this repository.
 | Clerk        | Authentication and user management |
 | REST API     | For blog operations (CRUD)   |
 
+---
+
+## Demo
+Demo: https://drive.google.com/file/d/1GSXVGlMbeJDVZANC_UT8nbGdNUx_natu/view?usp=drive_link
