@@ -44,7 +44,7 @@ export default function PostList() {
       loader={<h4>Loading more posts...</h4>}
       endMessage={
         <p>
-          {allPosts.length ? <b>All posts loaded!</b> : ""}
+          {/* {allPosts.length ? <b>All posts loaded!</b> : ""} */}
         </p>
       }
     >
