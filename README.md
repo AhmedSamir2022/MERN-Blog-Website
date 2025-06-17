@@ -21,13 +21,13 @@ A responsive and modern full-stack blog platform built using React, Express.js, 
 ![Homepage](assets/home.png)
 
 ### Authentication (Login / Register)
-![Auth](login.png)
+![Auth](assets/login.png)
 
 ### Create Blog
-![Create Blog](write.png)
+![Create Blog](assets/write.png)
 
 ### View Single Blog
-![View Blog](blog-details.png)
+![View Blog](assets/blog-details.png)
 
 ### Comment Section
 ![Comment Section](assets/comment-section.png)
@@ -46,8 +46,4 @@ All screenshots are stored in the `assets/` folder of this repository.
 | MongoDB      | NoSQL database               |
 | Clerk        | Authentication and user management |
 | REST API     | For blog operations (CRUD)   |
-
----
-
-## Folder Structure
 
